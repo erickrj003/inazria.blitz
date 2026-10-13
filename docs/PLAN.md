@@ -703,13 +703,13 @@ The biggest risk is not speed but trust: the simulator's numbers are only as goo
 
 ### Decisions for Erick
 
-- [ ] **SvelteKit 3 now, or SvelteKit 2 for agent reliability?** The plan uses 3 (current, docs and MCP up to date). Pinning SvelteKit 2 would match agents' training better but means a migration later.
-- [ ] **Which public repo holds the Player's Guide content?** Needed for `data:pull` (Q-001).
-- [ ] **Repo license** for code and for Inazria content (Q-002).
-- [ ] **Levels 1–5 for v1?** Raising the cap adds encoding work in Phase 1 and Phase 4.
-- [ ] **Encode SRD classes as baselines?** Comparing an Inazria Fighter against an SRD Fighter is a strong balance test, but it roughly doubles the class work.
-- [ ] **Battle maps for v1:** open field with simple obstacles (as planned), or premade terrain maps?
-- [ ] **Public or unlisted?** The plan assumes a public link beside the Player's Guide.
+- [X] **SvelteKit 3 now, or SvelteKit 2 for agent reliability?** The plan uses 3 (current, docs and MCP up to date). Pinning SvelteKit 2 would match agents' training better but means a migration later. Answer: SvelteKit 3
+- [X] **Which public repo holds the Player's Guide content?** Needed for `data:pull` (Q-001). Answer: https://github.com/erickrj003/inazria-players-guide
+- [X] **Repo license** for code and for Inazria content (Q-002). Answer: Don't worry about this yet.
+- [X] **Levels 1–5 for v1?** Raising the cap adds encoding work in Phase 1 and Phase 4. Answer: Level 5 is fine for now.
+- [X] **Encode SRD classes as baselines?** Comparing an Inazria Fighter against an SRD Fighter is a strong balance test, but it roughly doubles the class work. Answer: I'll consider this later once I do some testing. Likely only a few classess will be imported if any.
+- [X] **Battle maps for v1:** open field with simple obstacles (as planned), or premade terrain maps? Answer: Simple to start.
+- [X] **Public or unlisted?** The plan assumes a public link beside the Player's Guide. Answer: leave the game public.
 
 ## Sources
 
